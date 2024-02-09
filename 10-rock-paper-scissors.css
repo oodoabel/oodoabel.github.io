@@ -27,10 +27,18 @@ body{
 .result{
     font-size: 25px;
     font-weight: bolder;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    min-height: 0px;
+    min-width: 0px;
+}
+.all-button{
+    margin: 0px;
+    padding: 0px;
 }
 .score{
     margin-top: 60px;
+    min-height: 0px;
+    min-width: 0px;
 }
 .reset-score-button{
     background-color: white;
